@@ -1,0 +1,128 @@
+.food-details-container {
+    display: flex;
+    gap: 8rem;
+    padding: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap; /* fallback for smaller screens */
+  }
+  
+  .food-details-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 5rem;
+  }
+  
+  .food-details-info {
+    flex: 1;
+    max-width: 500px;
+    font-size: 0.9rem;
+  }
+  .review-stars {
+    color: gold;
+    font-size: 18px;
+    margin: 4px 0;
+  }
+  .review-stars {
+    color: gold;
+    font-size: 18px;
+    margin: 4px 0;
+  }
+
+  .average-rating {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .rating-number {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  
+  
+  .food-details-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: gray;
+  }
+  
+  .food-details-description {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .food-details-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .food-details-rating img {
+    height: 20px;
+  }
+  
+  .food-details-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  /* Review section style */
+  .review-section {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .review-form input,
+  .review-form textarea,
+  .review-form select {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .review-form textarea {
+    resize: vertical;
+    height: 60px;
+  }
+  
+  .review-form button {
+    padding: 0.5rem;
+    background-color: tomato;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .review-form button:hover {
+    background-color: tomato;
+  }
+  
+  .review-list {
+    margin-top: 1rem;
+  }
+  
+  .review-item {
+    background: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+  }
+  

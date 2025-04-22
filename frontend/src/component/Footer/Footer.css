@@ -1,0 +1,91 @@
+.footer {
+    color: #d9d9d9;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    margin-top: 100px;
+}
+
+.footer-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+    align-items: start; /* Align all columns from the top */
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+/* Left-aligned content */
+.footer-content-left {
+    align-items: flex-start; /* Ensures left alignment */
+}
+
+/* Center-aligned content */
+.footer-content-center {
+    align-items: center; /* Ensures center alignment */
+    margin-top: 70px;
+}
+
+/* Right-aligned content */
+.footer-content-right {
+    align-items: flex-end; /* Ensures right alignment */
+    margin-top: 70px;
+
+}
+
+.footer-content-right h2,
+.footer-content-center h2 {
+    color: white;
+}
+
+.footer-social-icon {
+    width: 40px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.logo-icon {
+    max-width: 130px;
+    margin-right: 15px;
+}
+
+.footer hr {
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background-color: gray;
+    border: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 750px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .footer-content-left,
+    .footer-content-center,
+    .footer-content-right {
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
